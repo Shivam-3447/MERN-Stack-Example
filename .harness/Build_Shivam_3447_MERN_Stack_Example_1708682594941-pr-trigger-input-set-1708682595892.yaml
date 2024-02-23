@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Shivam_3447_MERN_Stack_Example_1708682594941-pr-trigger-input-set
+  identifier: Build_Shivam_3447_MERN_Stack_Example_1708682594941prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Shivam_3447_MERN_Stack_Example_1708682594941
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
